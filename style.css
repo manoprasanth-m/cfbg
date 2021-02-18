@@ -1,0 +1,24 @@
+html,
+body {
+	margin: 0;
+	overflow: hidden;
+	// background-color: hsl(0, 0%, 8%);
+	background-color: #141414;
+
+}
+#cfsf {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /*margin-top: -100px;
+  margin-left: -200px;*/
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 100px;
+  font-family:sans-serif;
+  font-style:helvetica;
+  color: black;
+  opacity: 0.7;
+  font-weight:bold;
+  text-shadow: 2px 2px 8px #FF0000, 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
